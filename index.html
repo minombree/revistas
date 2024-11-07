@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .catalogo {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .producto img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .producto h3 {
+            margin: 1rem 0;
+            font-size: 1.2rem;
+        }
+        .producto p {
+            font-size: 1rem;
+            color: #555;
+            margin: 0.5rem 0;
+        }
+        .precio {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: bold;
+        }
+        .boton {
+            background-color: #007BFF;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            display: inline-block;
+        }
+        .boton:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Catálogo de Productos</h1>
+        <p>Encuentra lo que necesitas al mejor precio</p>
+    </header>
+
+    <section class="catalogo">
+        <!-- Producto 1 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>Descripción breve del producto. Excelente calidad y precio.</p>
+            <p class="precio">$19.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+
+        <!-- Producto 2 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>Descripción breve del producto. Ideal para todas tus necesidades.</p>
+            <p class="precio">$29.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 3">
+            <h3>Producto 3</h3>
+            <p>Descripción breve del producto. Alta durabilidad y funcionalidad.</p>
+            <p class="precio">$39.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+
+        <!-- Producto 4 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 4">
+            <h3>Producto 4</h3>
+            <p>Descripción breve del producto. ¡No te lo puedes perder!</p>
+            <p class="precio">$49.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+
+        <!-- Producto 5 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 5">
+            <h3>Producto 5</h3>
+            <p>Descripción breve del producto. Perfecto para regalar.</p>
+            <p class="precio">$59.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+
+        <!-- Producto 6 -->
+        <div class="producto">
+            <img src="https://via.placeholder.com/300x200" alt="Producto 6">
+            <h3>Producto 6</h3>
+            <p>Descripción breve del producto. Calidad garantizada.</p>
+            <p class="precio">$69.99</p>
+            <a href="#" class="boton">Comprar</a>
+        </div>
+    </section>
+
+</body>
+</html>
